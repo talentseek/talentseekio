@@ -1,0 +1,28 @@
+
+<!-- Developers Name Field -->
+<label>Name</label>
+
+<input id="name" type="text" name="developer[name]"  value="<%= @developer.name %>">
+
+<!-- Developers Title Field -->
+<label>Job Title</label>
+
+<input id="jobtitle" type="text" name="developer[jobtitle]"  value="<%= @developer.jobtitle %>">
+
+<!-- Developers Main Skill -->
+<label>Skill</label>
+
+<select name="developer[skill]" id="Skill" value="<%= @developer.skill %>">
+  <option value="Java">Java</option>
+  <option value="Python">Python</option>
+  <option value="Ruby">Ruby</option>
+  <option value="PHP">PHP</option>
+</select>
+
+<!-- Developers Description -->
+<label>Bio</label>
+
+<input id="description" type="textarea" name="developer[description]" value="<%= @developer.description %>">
+
+<!-- Submit -->
+<input type="Submit" value="Save developer">

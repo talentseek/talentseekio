@@ -1,0 +1,23 @@
+
+<section class="container">
+<h1>Developers</h1>
+<a href="/developers/new">Create a new developer</a>
+
+<% if @developers.any? %>
+	
+	<ul id="songs"><% @developers.each do |developer| %>
+		
+		<li><a href="/developers/<%= developer.id %>"><%= developer.jobtitle %></a></li>
+
+	<% end %>
+
+</ul>
+
+<% else %>
+
+<p>No developers found</p>
+
+
+<% end %>
+
+</section>
