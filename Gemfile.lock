@@ -27,7 +27,7 @@ GEM
     mustermann (1.0.3)
     pg (1.0.0)
     public_suffix (3.0.3)
-    rack (2.0.5)
+    rack (2.0.7)
     rack-protection (2.0.3)
       rack
     sinatra (2.0.3)
