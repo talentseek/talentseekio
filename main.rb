@@ -1,10 +1,10 @@
 # devnow.io platform V1 2018
 
 require 'sinatra'
-require './developers'
+# require './developers'
 
 get '/' do
-	@developers = Developer.all
+	#@developers = Developer.all
 	erb :home
 	end
 
